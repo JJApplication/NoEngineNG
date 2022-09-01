@@ -1,0 +1,30 @@
+{
+  "Blog": {
+    "stat": "run",
+    "domain": "blog.renj.io"
+  },
+  "Plume": {
+    "stat": "run",
+    "domain": "plume.renj.io"
+  },
+  "Resume": {
+    "stat": "run",
+    "domain": "me.renj.io"
+  },
+  "JJService": {
+    "stat": "run",
+    "domain": "app.renj.io"
+  },
+  "JJGo": {
+    "stat": "run",
+    "domain": "api.renj.io"
+  },
+  "CookBook": {
+    "stat": "run",
+    "domain": "cookbook.renj.io"
+  },
+  "Works": {
+    "stat": "run",
+    "domain": "works.renj.io"
+  }
+}
