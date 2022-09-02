@@ -9,8 +9,13 @@
 
 local ngx = require('ngx');
 local response = require('response');
+local pre_check = require('pre_check');
 
 function pickApp()
+    local ok = pre_check.pre_check();
+    if not ok then
+        return response.resErr();
+    end
     ngx.log(ngx.STDERR, 'start to pick app');
     --获取当前请求的域名
     local host = ngx.req.get_headers()["Host"]
