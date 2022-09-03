@@ -17,7 +17,7 @@ end
 --服务已经停止
 local function resStop()
     ngx.header['Content-Type'] = 'text/html;charset:utf-8';
-    ngx.say('<h2 style="text-align: center">service is not available</h2>');
+    ngx.say(page_stop);
     ngx.exit(ngx.HTTP_BAD_REQUEST);
 end
 
