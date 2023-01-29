@@ -12,6 +12,7 @@ NGINX_LOG=/renj.io/log/NoEngine
 NGINX_LUA=/renj.io/app/NoEngine/lua
 NGINX_SSL=/renj.io/ssl
 NGINX_CACHE=/renj.io/cache/nginx
+NGINX_CHALLENGE=/renj.io/.well-known
 
 #需要暴露本机的端口给nginx
 docker run --network host -v ${NGINX_CONFS}:/etc/nginx/conf.d \
@@ -23,5 +24,6 @@ docker run --network host -v ${NGINX_CONFS}:/etc/nginx/conf.d \
 -v ${NGINX_LUA}:/app/lua \
 -v ${NGINX_LOG}:/var/nginx/log \
 -v ${NGINX_CACHE}:/var/nginx/cache \
+-v ${NGINX_CHALLENGE}:/renj.io/.well-known \
 -p 80:80 \
 openresty/openresty
