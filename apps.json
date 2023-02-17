@@ -26,5 +26,9 @@
   "Works": {
     "stat": "run",
     "domain": "works.renj.io"
+  },
+  "Homeland": {
+    "stat": "run",
+    "domain": "renj.io"
   }
 }
