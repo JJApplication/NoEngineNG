@@ -1,9 +1,9 @@
 {
-  "Blog": {
+  "BlogFront": {
     "stat": "run",
     "domain": "blog.renj.io"
   },
-  "Plume": {
+  "PlumeFront": {
     "stat": "run",
     "domain": "plume.renj.io"
   },
@@ -11,11 +11,11 @@
     "stat": "run",
     "domain": "me.renj.io"
   },
-  "JJService": {
+  "JJServiceFront": {
     "stat": "run",
     "domain": "app.renj.io"
   },
-  "JJGo": {
+  "JJGoFront": {
     "stat": "run",
     "domain": "api.renj.io"
   },
