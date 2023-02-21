@@ -26,7 +26,7 @@ function pickApp()
         local stat = value['stat'];
         local domain = value['domain'];
 
-        if (stat == 'stop' and string.find(host, domain)) then
+        if (stat == 'stop' and host == domain) then
             return response.resStop();
         end
     end
