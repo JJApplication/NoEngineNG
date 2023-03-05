@@ -34,5 +34,9 @@
   "JJChat": {
     "stat": "run",
     "domain": "chat.renj.io"
+  },
+  "DevDoc": {
+    "stat": "run",
+    "domain": "dev.renj.io"
   }
 }
