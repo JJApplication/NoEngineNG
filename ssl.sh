@@ -5,7 +5,13 @@ exe="$acme/acme.sh"
 echo "停止NoEngine使用acme模拟80端口"
 
 docker stop NoEngine
-$exe --issue -d renj.io -d me.renj.io -d dev.renj.io -d service.renj.io -d blog.renj.io --debug --standalone --force
+$exe --issue \
+-d renj.io \
+-d me.renj.io \
+-d dev.renj.io \
+-d service.renj.io \
+-d blog.renj.io \
+--debug --standalone --force
 
 # 会生成到当前目录下的renj.io_ecc
 res=$(ls | grep ecc)
