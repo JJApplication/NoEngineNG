@@ -27,6 +27,7 @@ function pickApp()
         local domain = value['domain'];
 
         if (stat == 'stop' and host == domain) then
+            ngx.log(ngx.STDERR, 'request domain stat is stop: ', domain);
             return response.resStop();
         end
     end
