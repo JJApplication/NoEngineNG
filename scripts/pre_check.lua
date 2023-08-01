@@ -10,6 +10,9 @@ local ngx = require('ngx');
 
 function pre_check()
     local headers = ngx.req.get_headers();
+    if (headers['user-agent'] == '' or headers['user-agent'] == nil) then
+        return false
+    end
     local user_agent = string.lower(headers['user-agent']);
     if (string.match(user_agent, 'scrapy') ~= nil) then
         return false
