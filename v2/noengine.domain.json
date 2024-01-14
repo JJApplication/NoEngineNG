@@ -1,0 +1,50 @@
+{
+  "renj.io": {
+    "frontend": "Homeland"
+  },
+  "me.renj.io": {
+    "frontend": "Resume"
+  },
+  "dev.renj.io": {
+    "frontend": "DevDoc"
+  },
+  "blog.renj.io": {
+    "frontend": "BlogFront",
+    "backend": "Blog"
+  },
+  "gallery.renj.io": {
+    "frontend": "Palace",
+    "backend": "Palace"
+  },
+  "page.renj.io": {
+    "frontend": "MySite",
+    "backend": "MySite"
+  },
+  "drive.renj.io": {
+    "frontend": "DriveFront",
+    "backend": "Drive"
+  },
+  "service.renj.io": {
+    "frontend": "Apollo",
+    "backend": "Apollo"
+  },
+  "card.renj.io": {
+    "frontend": "CardFront",
+    "backend": "Card"
+  },
+  "app.renj.io": {
+    "frontend": "JJServiceFront",
+    "backend": "JJService"
+  },
+  "api.renj.io": {
+    "frontend": "JJGo",
+    "backend": "JJGo"
+  },
+  "jjgo.renj.io": {
+    "frontend": "JJGoFront"
+  },
+  "mgek.cc": {
+    "frontend": "Mgek",
+    "backend": "Mgek"
+  }
+}
