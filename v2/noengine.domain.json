@@ -49,5 +49,8 @@
   },
   "happybirthdaylx.pro": {
     "frontend": "HappyBirthday"
+  },
+  "plan.renj.io": {
+    "frontend": "Demeter"
   }
 }
