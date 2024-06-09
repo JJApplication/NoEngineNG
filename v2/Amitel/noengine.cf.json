@@ -1,0 +1,29 @@
+{
+  "serverDomain": "",
+  "serverName": "Amitel",
+  "volumes": [
+    {
+      "hostPath": "@root/app.conf",
+      "innerPath": "/app.conf"
+    },
+    {
+      "hostPath": "@app",
+      "innerPath": "/app"
+    },
+    {
+      "hostPath": "?/renj.io/ssl",
+      "innerPath": "/ssl"
+    },
+    {
+      "hostPath": "@app/cache",
+      "innerPath": "/tmp/pkg"
+    }
+  ],
+  "ports": [
+    {
+      "hostPort": "10086",
+      "innerPort": "80",
+      "proto": "tcp"
+    }
+  ]
+}
