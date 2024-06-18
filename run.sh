@@ -4,7 +4,6 @@
 # 不再使用本地编译的nginx二进制
 
 APP_ROOT=/renj.io/app
-MGEK_FILE=/renj.io/mgekfile
 NGINX_CONF=/renj.io/app/NoEngine/conf/nginx.conf
 NGINX_CONFS=/renj.io/app/NoEngine/conf.d
 NGINX_APP=/renj.io/app/NoEngine
@@ -17,7 +16,6 @@ NGINX_CHALLENGE=/renj.io/.well-known
 #需要暴露本机的端口给nginx
 docker run --network host -v ${NGINX_CONFS}:/etc/nginx/conf.d \
 -v ${APP_ROOT}:/renj.io/app \
--v ${MGEK_FILE}:/renj.io/mgekfile \
 -v ${NGINX_CONF}:/usr/local/openresty/nginx/conf/nginx.conf \
 -v ${NGINX_APP}:/app \
 -v ${NGINX_SSL}:/renj.io/ssl \

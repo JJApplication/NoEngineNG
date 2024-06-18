@@ -52,5 +52,14 @@
   },
   "plan.renj.io": {
     "frontend": "Demeter"
+  },
+  "pkg.renj.io": {
+    "frontend": "Amitel"
+  },
+  "x.renj.io": {
+    "frontend": "JJAppX"
+  },
+  "jjapp.dev": {
+    "frontend": "JJAppDev"
   }
 }
