@@ -43,9 +43,13 @@
   "jjgo.renj.io": {
     "frontend": "JJGoFront"
   },
-  "mgek.cc": {
+  "mgek.renj.io": {
     "frontend": "Mgek",
     "backend": "Mgek"
+  },
+  "doc.renj.io": {
+    "frontend": "MgekDoc",
+    "backend": "MgekDoc"
   },
   "happybirthdaylx.pro": {
     "frontend": "HappyBirthday"
