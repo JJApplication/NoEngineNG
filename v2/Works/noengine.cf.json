@@ -1,0 +1,25 @@
+{
+  "serverDomain": "",
+  "serverName": "Works",
+  "volumes": [
+    {
+      "hostPath": "@root/app.conf",
+      "innerPath": "/app.conf"
+    },
+    {
+      "hostPath": "@app",
+      "innerPath": "/app"
+    },
+    {
+      "hostPath": "?/renj.io/ssl",
+      "innerPath": "/ssl"
+    }
+  ],
+  "ports": [
+    {
+      "hostPort": "",
+      "innerPort": "80",
+      "proto": "tcp"
+    }
+  ]
+}

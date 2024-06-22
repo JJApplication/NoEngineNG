@@ -51,8 +51,8 @@
     "frontend": "MgekDoc",
     "backend": "MgekDoc"
   },
-  "happybirthdaylx.pro": {
-    "frontend": "HappyBirthday"
+  "works.renj.io": {
+    "frontend": "Works"
   },
   "plan.renj.io": {
     "frontend": "Demeter"
@@ -62,6 +62,9 @@
   },
   "x.renj.io": {
     "frontend": "JJAppX"
+  },
+  "happybirthdaylx.pro": {
+    "frontend": "HappyBirthday"
   },
   "jjapp.dev": {
     "frontend": "JJAppDev"
