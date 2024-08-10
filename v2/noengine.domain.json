@@ -63,6 +63,10 @@
   "x.renj.io": {
     "frontend": "JJAppX"
   },
+  "plume.renj.io": {
+    "frontend": "PlumeFront",
+    "backend": "Plume"
+  },
   "happybirthdaylx.pro": {
     "frontend": "HappyBirthday"
   },
