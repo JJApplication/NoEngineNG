@@ -55,7 +55,6 @@
       "backend": "Drive"
     },
     "service.renj.io": {
-      "frontend": "Apollo",
       "backend": "Apollo"
     },
     "card.renj.io": {
@@ -88,7 +87,6 @@
       "frontend": "Demeter"
     },
     "pkg.renj.io": {
-      "frontend": "BlackHole",
       "backend": "BlackHole"
     },
     "x.renj.io": {
