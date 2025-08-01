@@ -84,7 +84,8 @@
       "frontend": "Works"
     },
     "plan.renj.io": {
-      "frontend": "Demeter"
+      "frontend": "Demeter",
+      "backend": "Demeter"
     },
     "pkg.renj.io": {
       "backend": "BlackHole"
